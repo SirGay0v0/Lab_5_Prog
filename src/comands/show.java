@@ -7,8 +7,9 @@ import java.util.Vector;
 
 public interface show {
     static void show(Vector vector) {
+        int i = -1;
         for (Object vehicle : vector) {
-            System.out.print(vehicle + " ");
+            System.out.println("index = " + vector.indexOf(vehicle) + ", " + vehicle.toString());
         }
     }
 }

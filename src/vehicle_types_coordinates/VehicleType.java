@@ -4,5 +4,5 @@ public enum VehicleType {
     CAR,
     HELICOPTER,
     SUBMARINE,
-    BOAT;
+    BOAT
 }
